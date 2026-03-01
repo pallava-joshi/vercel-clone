@@ -1,0 +1,25 @@
+{
+  "name": "build-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/script.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/script.js",
+    "dev": "tsc -w -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1000.0",
+    "dotenv": "^17.3.1",
+    "ioredis": "^5.10.0",
+    "mime-types": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/mime-types": "^3.0.1",
+    "@types/node": "^25.3.3",
+    "typescript": "^5.9.3"
+  }
+}
