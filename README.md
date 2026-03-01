@@ -1,5 +1,11 @@
 # Vercel Clone
 
+> **Video demo soon...**
+
+## Quick Start
+
+For complete setup instructions, see **[TESTING_GUIDE.md](./TESTING_GUIDE.md)**.
+
 ### Ideal Architecture
 
 ![Architecture Diagram](./static/image.png)
